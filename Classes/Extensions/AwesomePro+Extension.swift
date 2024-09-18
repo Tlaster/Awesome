@@ -42,20 +42,20 @@ public extension AwesomePro {
             public var file: String {
                 switch self {
                     case .solid:
-                        return "fa-solid-900"
+                        return "fa-classic-solid-900"
                     case .regular:
-                        return "fa-regular-400"
+                        return "fa-classic-regular-400"
                     case .brand:
-                        return "fa-brands-400"
+                        return "fa-classic-brands-400"
                 }
             }
 
             public var description: String {
                 switch self {
                     case .solid:
-                        return "Font Awesome 6 Free"
+                        return "Font Awesome 6 Pro"
                     case .regular:
-                        return "Font Awesome 6 Free"
+                        return "Font Awesome 6 Pro"
                     case .brand:
                         return "Font Awesome 6 Brands"
                 }
@@ -64,9 +64,9 @@ public extension AwesomePro {
             public var memberName: String {
                 switch self {
                     case .solid:
-                        return "FontAwesome6Free-Solid"
+                        return "FontAwesome6Pro-Solid"
                     case .regular:
-                        return "FontAwesome6Free-Regular"
+                        return "FontAwesome6Pro-Regular"
                     case .brand:
                         return "FontAwesome6Brands-Regular"
                 }
@@ -75,9 +75,9 @@ public extension AwesomePro {
             public var alternativeFileName: String {
                 switch self {
                     case .solid:
-                        return "Font Awesome 6 Free-Solid-900"
+                        return "Font Awesome 6 Pro-Solid-900"
                     case .regular:
-                        return "Font Awesome 6 Free-Regular-400"
+                        return "Font Awesome 6 Pro-Regular-400"
                     case .brand:
                         return "Font Awesome 6 Brands-Regular-400"
                 }

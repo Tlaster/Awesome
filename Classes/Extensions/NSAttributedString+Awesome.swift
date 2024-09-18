@@ -28,7 +28,7 @@ public extension NSAttributedString {
                           .foregroundColor: color,
                           .backgroundColor: backgroundColor,
                           .paragraphStyle: paragraph]
-        self.init(string: icon.description, attributes: attributes)
+        self.init(string: icon.unicodeString, attributes: attributes)
     }
     
 }
